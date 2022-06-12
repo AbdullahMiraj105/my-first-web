@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registeration</title>
+<style>
+    body{
+       background-image:linear-gradient(to right,#F13000,#C5F100);
+		background-color:aqua;
+	}
+	.form-edit{
+	background-color:yellow;
+	text-align:center;
+	font-size:120%;
+	border:5px solid blue;
+		width:280px;
+		padding:5px;
+		position:relative;
+		left:40%;
+		top: 20px;
+	}
+	h1{
+		background-color:yellow;
+		border:3px solid green;
+		width:200px;
+		padding:5px;
+		position:relative;
+		left:43%;
+		top: 20px;
+		
+	}
+	
+</style>
+</head>
+<body>
+<h1> Register here</h1>
+<form class="gradient-style">
+<section class="form-edit">
+<div class="div1">
+<label for="fullname">Full Name: </level>
+<input type="text" name="fullname" id="fullname" required>
+</div><br/>
+<div class="div2">
+<label for="email">Email: </level>
+<input type="email" name="email" id="email" required>
+</div><br/>
+<div class="div3">
+<label for="password">Password: </level>
+<input type="password" name="password" id="password"required>
+</div><br/>
+<div class="div4">
+<label for="dob">Date of birth: </level>
+<input type="date" name="dob" id="dob" required>
+</div><br/>
+<div class="div5">
+<label for="photo">choose your photo: </level>
+<input type="file" name="photo" id="photo">
+</div><br/>
+<div class="div6">
+<label for="gender">Gender: </level>
+<input type="radio" name="gender" id="gender" value="male">Male
+<input type="radio" name="gender" id="gender" value="female">Female
+</div><br/>
+<div class="div7">
+<label for="religion">Religion: </level>
+<input type="radio" name="c1" id="Muslim" value="islam">Islam
+<input type="radio" name="c1" id="Hindu" value="hindu">Hindu
+</div><br/>
+<div class="div8">
+<label for="department">Department: </level>
+<select name="department">
+<option value="cse">CSE</option>
+<option value="eee">EEE</option>
+<option value="llb">LLB</option>
+</select>
+</div><br/>
+<div class="div9">
+<label for="message">Message:</label>
+<textarea cols="2" rows="1"> </textarea>
+</div>
+<div class="div10">
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</section>
+</form>
+<br/><br/>
+</body>
+</html>
